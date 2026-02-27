@@ -1,0 +1,42 @@
+body{
+  padding: 25px;
+  background-color: black;
+}
+.white{
+  height :300px;
+  width:300px;
+  display: flex ;
+  flex-direction: column;
+  padding:20px;
+  background-color: white;
+  column-gap: 10px;
+}
+.bar{
+  width:100%;
+  height:20px;
+  background-color: grey;
+  border-radius: 10px;
+  
+}
+.grow{
+  background-color:green;
+  width:0%;
+  height:100%;
+  border-radius:10px;
+  
+}
+.bottom{
+  margin:20px;
+  display:flex;
+  justify-content: space-between;
+  
+}
+button{
+  width: fit-content; 
+  height:auto;
+  background-color:green;
+  border:none;
+  
+}
+
+
